@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
+import Image from 'next/image'
 
 const spiegelSans = localFont({
   variable: '--spiegel-sans',
@@ -52,6 +53,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${spiegelSans.className} ${beaufortForLol.variable}`}>
+        <header className="absolute flex items-center h-32 w-full px-20">
+          <Image
+            src="/lol.svg"
+            alt="League of Legends"
+            width={142}
+            height={56}
+          />
+        </header>
         {children}
       </body>
     </html>

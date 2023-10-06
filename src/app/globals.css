@@ -6,3 +6,8 @@ body {
   background-color: #000000;
   color: white;
 }
+
+.text-background-image {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
