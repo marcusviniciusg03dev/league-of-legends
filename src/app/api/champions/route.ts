@@ -1,6 +1,4 @@
-import { NextApiRequest, NextApiResponse } from "next";
-
-export const GET = (request: NextApiRequest, response: NextApiResponse) => {
+export const GET = () => {
     return Response.json({
       data: [
         {
