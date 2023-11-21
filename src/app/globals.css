@@ -7,7 +7,13 @@ body {
   color: white;
 }
 
-.text-background-image {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+@layer base {
+  .text-background-image {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .outline-font-2 { 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+  }
 }
