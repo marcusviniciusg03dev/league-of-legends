@@ -5,4 +5,5 @@ interface IChampion {
     description: string
     bgImageSuffix: string
     heroImage: string
+    letterBg: string
 }

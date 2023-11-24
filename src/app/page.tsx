@@ -33,6 +33,7 @@ export default function Home() {
           name={champions[currentChampionIndex].name}
           label={champions[currentChampionIndex].label}
           heroImage={champions[currentChampionIndex].heroImage}
+          letterBg={champions[currentChampionIndex].letterBg}
           type={champions[currentChampionIndex].type}
           callbacks={{ handleNextChampion, handlePrevChampion }}
         />

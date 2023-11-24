@@ -10,13 +10,14 @@ interface ChampionProps {
     description: string
     bgImageSuffix: string
     heroImage: string
+    letterBg: string
     callbacks: {
         handleNextChampion: any
         handlePrevChampion: any
     }
 }
 
-export default function Champion({ championIndex, name, label, type, description, bgImageSuffix, heroImage, callbacks }: ChampionProps) {
+export default function Champion({ championIndex, name, label, type, description, bgImageSuffix, heroImage, letterBg, callbacks }: ChampionProps) {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -35,7 +36,10 @@ export default function Champion({ championIndex, name, label, type, description
             {loading ? (
                 <div className="h-full w-full flex flex-col">
                     <span className="flex justify-center flex-1">
-                        <h1 className="uppercase font-heading text-[clamp(100px,_24vw,_800px)] text-background-image bg-letter-2 bg-cover bg-no-repeat bg-[70%_100px]">
+                        <h1
+                            className="uppercase font-heading text-[clamp(100px,_24vw,_800px)] text-background-image bg-cover bg-no-repeat bg-[70%_100px]"
+                            style={{ backgroundImage: `url("${letterBg}")` }}
+                        >
                             {name}
                         </h1>
                     </span>

@@ -15,7 +15,6 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'letter-2': 'url("/images/letter-2.png")',
         // wallpapers
         'wallpaper': 'url("/images/wallpaper.png")',
         'wallpaper-1': 'url("/images/wallpaper-1.png")',
