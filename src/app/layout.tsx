@@ -7,17 +7,17 @@ const spiegelSans = localFont({
   variable: '--spiegel-sans',
   src: [
     {
-      path: '../../fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf',
+      path: '../../fonts/spiegel/spiegel_tt_regular.ttf',
       weight: '400',
       style: 'normal'
     },
     {
-      path: '../../fonts/Spiegel-TTF/Spiegel_TT_SemiBold.ttf',
+      path: '../../fonts/spiegel/spiegel_tt_semibold.ttf',
       weight: '600',
       style: 'normal'
     },
     {
-      path: '../../fonts/Spiegel-TTF/Spiegel_TT_Bold.ttf',
+      path: '../../fonts/spiegel/spiegel_tt_bold.ttf',
       weight: '700',
       style: 'normal'
     },
@@ -28,12 +28,12 @@ const beaufortForLol = localFont({
   variable: '--beaufort-for-lol',
   src: [
     {
-      path: '../../fonts/BeaufortForLol-TTF/BeaufortforLOL-Bold.ttf',
+      path: '../../fonts/beaufortforlol/beaufortforlol_bold.ttf',
       weight: '700',
       style: 'normal'
     },
     {
-      path: '../../fonts/BeaufortForLol-TTF/BeaufortforLOL-BoldItalic.ttf',
+      path: '../../fonts/beaufortforlol/beaufortforlol_bolditalic.ttf',
       weight: '700',
       style: 'italic'
     },
